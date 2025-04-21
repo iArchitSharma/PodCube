@@ -1,0 +1,55 @@
+<svg style="max-height: 500px" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="938.8990379999999 995.3552000000001 1574.146 1361.0520000000001" y="0" x="0" width="1574.146" height="1361.0520000000001">
+<defs>
+<clipPath id="c_1"><path d="M0,0H3437V3437H0Z"/></clipPath>
+<clipPath id="c0"><path d="M-.2 3437.8V-.2h3438v3438Z"/></clipPath>
+
+<style>
+text { white-space: pre; }
+path, image { pointer-events: none; }
+
+.s0{font-size:477.34px;font-family:TANNIMBUS_n;fill:#FAB713;}
+.s1{font-size:477.34px;font-family:TANNIMBUS_n;fill:#1B985A;}
+.s2{font-size:477.34px;font-family:TANNIMBUS_n;fill:#FE69C9;}
+.s3{font-size:477.34px;font-family:TANNIMBUS_n;fill:#24A9C5;}
+
+.g0{fill:none;}
+.g1{fill:none;}
+.g2{fill:#FAB713;}
+.g3{fill:#1B985A;}
+.g4{fill:#24A9C5;}
+.g5{fill:#FE69C9;}
+.g6{fill:#000;fill-opacity:0;}
+
+</style>
+
+</defs>
+<path stroke="none" fill="none" d="M0 0V3437H3437V0Z"/>
+<g clip-path="url(#c_1)">
+<g clip-path="url(#c0)">
+<path class="g0" d="M0 0H3437.5V3437.5H0V0Z"/>
+<path class="g1" d="M0 0H3437.5V3437.5H0V0Z"/>
+</g>
+<path class="g2" d="M1294 1707.6c2.2-27.2 5-68.9 5.2-78c4.2-76.2 5.3-156.7-7.5-214.9c-4.8-17.2-16.9-20.5-37.9-21.1c-8.9-.5-17.8 .1-26.7 .4c-.9 0-1.8 .3-2.7 .6c-6.5-.1-13 0-19.4 1.1c-11.6 2.6-14 16.5-16.8 26.3c-10.7 65.3-8.6 150.9-9 204.3c.9 29.4 .9 58.8 1.5 88.1c.6 9.5 .7 19.5 5 28.2c6.1 8.5 5.8 6.2 9.5 9.1c8.4 3.3 23 7.6 33.1 5q.1 0 .1 .1c2.7 .7 14.7 .6 14.5 .4c9.6 .7 19.5 .4 28.9-1.4c.6-.1 .9-.2 1.1-.2c3.9-.9 7.5-2.6 10.4-5.4c10.3-11.6 9.2-28.2 10.7-42.6m955.6 0c2.2-27.2 5-68.9 5.2-78c4.1-76.2 5.2-121.7-7.6-179.9c-4.7-17.2-16.8-20.6-37.9-21.1c-8.9-.5-17.8 .1-26.7 .4c-.9 0-1.8 .3-2.6 .6c-6.6-.1-13.1-.1-19.5 1.1c-11.6 2.6-14 16.4-16.8 26.3c-10.7 65.3-8.6 115.9-9 169.3c.9 29.4 .9 58.8 1.6 88.1c.6 9.5 .7 19.5 4.9 28.2c6.1 8.5 5.8 6.2 9.5 9.1c8.4 3.3 23 7.6 33.2 5c2.7 .8 14.7 .7 14.5 .5c9.6 .7 19.5 .4 28.9-1.4c.6-.1 .9-.2 1.1-.3c3.9-.8 7.6-2.5 10.5-5.3c10.2-11.6 9.1-28.2 10.7-42.6Z"/>
+<path class="g3" d="M1378.2 1738.6c0 .1 0 .2 0 .4c0-.2 0-.4-.1-.8c0 .1 0 .3 .1 .4m81.9 5.9c.1-.1 .2-.2 .3-.2c-.1 0-.3 .1-.4 .2h.1m21.1-26.4c2.6-17.5 6.4-173.9 .1-261.2c-5.1-70.9-3.9-142.2-9-213.1c-1.8-23.2-8.3-32.8-33-32.5c-15.7-.4-28.8-.3-49.9 3.2c-19.7 3.3-33.6 26-35 44.4c-3.7 48.1-7.2 128.8-9.6 180.6c.3 94.4 2.8 188.7 4.4 283c-.6 22.2 17.8 28.8 36.6 31.9c22.8 4.4 39.6 4 67-.1c4.7-.6 9.2-2.3 13.2-4.8c10.7-6.6 13.2-19.9 15.2-31.4m484.1 20.5c.1 .1 .1 .2 .1 .4c0-.2-.1-.4-.1-.8c0 .1 0 .3 0 .4m81.9 5.9c.2-.1 .3-.2 .4-.2c-.2 0-.3 .1-.5 .2q.1 0 .1 0m21.2-26.4c2.6-17.5 6.3-173.9 .1-261.2c-5.1-70.9-4-211.4-9.1-282.4c-1.7-23.2-8.2-32.8-33-32.5c-15.6-.4-28.8-.2-49.8 3.3c-19.7 3.2-33.6 25.9-35 44.4c-3.7 48.1-7.2 198-9.6 249.8c.2 94.3 2.8 188.7 4.3 283c-.5 22.2 17.9 28.8 36.7 31.9c22.7 4.4 39.6 4 67-.1c4.6-.6 9.1-2.3 13.1-4.8c10.8-6.6 13.2-19.9 15.3-31.4Z"/>
+<path class="g4" d="M1674.7 1711.1c.1-23.9-3-47.8-3.6-71.8c-2.1-77.3 9.5-386.6 7.4-472.6c-1.1-50.5 7.3-105.4-8-140.1c-7.6-17.4-38.3-13.1-72.7-3.7c-22.4 6.1-42.8-7.8-47.8 139.5c-1.3 38.6-5.8 70.2-6.6 103.1c-1.3 57.8-.3 271.2-3.5 323c-2.2 34.4 1.3 68.8 2.9 103.1c.7 11.1 .7 22.2 2.4 33.2c-.2-.9-.3-1.7-.5-2.5c.4 9.5 2.5 19.7 10.8 25.4c7 6.2 16.3 8.1 25.4 8.8c14.7 1.5 29.5 1.2 44.2 .4c13.6-1.9 31.8 3.9 41.3-8.4c7.8-10.7 7.7-24.7 8.3-37.4m-18-661.3c-.1-.1-.1-.2-.1-.4c0-.2-.1-.5-.1-.8c0 .4 .1 .8 .2 1.3c0 0 0-.1 0-.1Z"/>
+<path class="g5" d="M1871.1 1638.3c-1.2 25.6 .7 112.9-33.2 114.8c-32.9 3.6-65.5 7.8-91.1-.1c-15-4.3-16.1-19-16.3-32.2c-1.5-20.3-1.6-40.7-2.1-61c-1.3-102.1 2.6-204.2 8.3-306.1c2.5-19.3 2.6-43.6 19.7-56.2c4.3-3.1 9.5-4.7 14.6-5.6c4.9-.9 18.3-9.2 56.8-7.7c8.9 .3 19.2 .1 26 6.8c5.5 5.8 7.7 13.7 9.1 21.4c3.9 20.9 5.3 42.2 5.4 63.4c.1 47.5 .9 95 1.9 142.6c1 39.9 1.4 79.9 .9 119.9Z"/>
+<g clip-path="url(#c0)">
+<text class="s0" y="2316.7" x="954">C </text>
+<text class="s1" y="2316.7" x="1337.4">U </text>
+<text class="s2" y="2316.7" x="1740.7">B </text>
+<text class="s3" y="2316.7" x="2109.7">E </text>
+</g>
+<path class="g6" d="M1177.3 1761.4H2260.2V1009.3H1177.3v752.1Z"/>
+
+</g>
+
+<style>
+
+@font-face {
+	font-family: TANNIMBUS_n;
+	src: url("data:application/x-font-woff;charset=utf-8;base64, d09GRgABAAAAAAXUAA0AAAAACLgAAQABAAAAAAAAAAAAAAAAAAAAAAAAAABPUy8yAAABMAAAAEkAAABgXwWB0mNtYXAAAAF8AAAAVAAAAZoV9QTdY3Z0IAAAAdAAAAACAAAAAgAAAABmcGdtAAAB1AAAAAEAAAABAAAAAGdseWYAAAHYAAACewAAAyj1bkBBaGVhZAAABFQAAAA2AAAANiBimTRoaGVhAAAEjAAAACAAAAAkCJAEUWhtdHgAAASsAAAAHgAAAHQNQgBGbG9jYQAABMwAAAAVAAAAPAnmCqBtYXhwAAAE5AAAABgAAAAgACUAh25hbWUAAAT8AAAAvgAAAV51sDBYcG9zdAAABbwAAAATAAAAIP+fADJwcmVwAAAF0AAAAAEAAAABAAAAAHicY2BmmsU4gYGVgYGpiymCgYHBG0IzxjEYASEqYETmhDj6KTA4MDgxhDIr/LdgYGBWYDihwMAwGSTHtIf5BZBSYGAGANgxCq8AAAB4nGNgYGBmgGAZBkYGEJgC5IFYEQwsDDZAmouBg4EJCJ0ZXBlC///9/x8o5oRg/z/8/zhYBxcDDIgy8FKkl4GRjYEKQJQXaDsqkKGGufQBAG4uHNcAAAAAAAAAAHicZZLbT9NQHMdPW+i2hq3FXrbuUtZ2va1dGfQyw2A3KIyLZohMiIuKeONFlIQHE00k2YMv+KIv/gs+kPgv+O6f4LuJTyQkvijYdhBRz8tJPuec5Pv5fQ+AAHt2DP9EfoDbAJB2DbEmGcaadF1/RyMJWBRMRBQSME2hF5yDz89p6uIcZZIBDV+fU5jNTnX3l5SF5ZKo5XAKxROYfLXgrHn1lsLmr0QgKIbhY7YhzbfquWSaiI7ESa1pGu2qVWYJDEa4nb7nzOmZJB4jjPWXnZvvduvQydL7/qMq5a/SLJ+sm6lCIZVR1URE0nLpNJtnKZJPsVM2L7mORKWx3mGHMwyOFK29B/XG688A/DFeB2DYD+r8a4364ghNBSD0QVFRkOXgmmMrF+PgkEu+0FEQ7j/hCIMTpp7Lpwk0OoIZi0V1TivO1IpZqzPf1oMhjE1v7rcvSeJ+xIPLioRK0eO2m2ElTMWllqY01VKrLGRGyOGorOUC9drhm2ezA8ny3sMmAAjAAIC/It9AAVigHfQqK7xvOKhGlv3CfAE4yQzkeNd1oFAqnIFjy1BwgRmUGgJFlks4BR1tvZoR5594lZ1uFotXe9vqh7fNp94pT+FQy9paKdW07ouGe/olMpwS4llvvcyJeHe3s4js6RVq4XmjuLlsMnQ0itPx2BB+8Li6PU1VdPgjrVicIBkNjjNOP0WGYoJM5JedJI9LKwLL+p1hZ8fIuG9U+stmKNAII44GEEXpUSqBBH/SsYk0VKSzuFLzaorurcqTNyZ8tMGOmtfvbhvG/TvXzDBVViUr97qrq7cmyi2N1NdmoO8+9VP9Ouv1Nyyatjb6vd+dB5JzAAABAAAAAQAAsbCvul8PPPUAAwPoAAAAANz7VxEAAAAA3uL+u//a/bUFkwTTAAAAAwACAAAAAAAAeJxjYGRgYFb4b8HAwDr//63/MayTGYAiKEAWAI05Bep4nGP4xYAXMPMzSBIjhgyYPjJw4TTPkoELAKg8ApQAAHicY2DAAJVw+AoVMgajwCkAHIUMjwAAAHicY2BkYGCQZWhjYGcAAUYGNAAAERYArXicjY69DgFREIU/1k80KoWo9gWI3Uax1ZIICQqWQiMSsiQbxF/iRTyBx/BwjutSiEJuMvnuzDlnBsgzxSGVKQAd7pZTlLlZTlPkatkhomk5Q4ma5SwV/V6cEyFdyGDmMqBLX54xIyYs2XNgzZYNLp78dfOMmn/VgdUHP30BvjS+9AFtesrpUqWhnsdQmTEnEubKfrurXwmh5ol6Q+2OWXHUFa7xHsxNZ9WFrnE/m54cKXOjemGneYvtAwevK4QAAHicY2BmAIP/cxiMGLAAACqDAdEAAAAAAA==") format("woff");
+}
+
+</style>
+
+</svg>
