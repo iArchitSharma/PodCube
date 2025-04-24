@@ -41,7 +41,7 @@ const AuthForm = ({ type }: { type: FormType }) => {
     });
 
     
-    const onSubmit = async (values: z.infer<typeof formSchema>) => {
+    async function onSubmit (values: z.infer<typeof formSchema>) {
         try {
             if(type === 'sign-up'){
                 const {name, email, password} = values;
@@ -83,7 +83,7 @@ const AuthForm = ({ type }: { type: FormType }) => {
                   }
 
                 toast.success('Sign in successfully')
-                router.push('/');
+                router.push('/podcast');
             }
 
         } catch (error) {

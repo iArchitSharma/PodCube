@@ -33,7 +33,7 @@ const Hero = () => {
         
         <div className="flex justify-center items-center mt-8" data-aos="fade-up" data-aos-delay="400">
           <Link
-            href="#pricing"
+            href="/podcast"
             rel="noopener noreferrer"
             className="relative flex items-center justify-center px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white text-lg font-semibold rounded-full shadow-lg transform hover:scale-105 transition-transform duration-200"
           >
