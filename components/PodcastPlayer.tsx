@@ -146,7 +146,7 @@ export default function PodcastPlayer({podcastScript}) {
           Now speaking: <strong className="text-primary-400">{podcastScript[currentIndex]?.speaker}</strong>
         </p>
 
-        {callEnd ? (
+        {recording ? (
           <div className="flex justify-center items-center space-x-4 mt-4">
           <p className="text-gray-200 text-lg font-semibold ">
             Your Podcast is Ready
