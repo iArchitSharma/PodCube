@@ -4,7 +4,7 @@ import { NextResponse } from 'next/server';
 export async function GET() {
   try {
     const twoMinutesAgo = new Date(Date.now() - 2 * 60 * 1000);
-    
+
     const snapshot = await db
       .collection("podcastLinks")
       .orderBy("createdAt", "desc")
@@ -13,22 +13,31 @@ export async function GET() {
 
     if (!snapshot.empty) {
       const doc = snapshot.docs[0];
-      const createdAt = doc.data().createdAt.toDate();
-      
+      const data = doc.data();
+      const createdAt = parseCreatedAt(data.createdAt);
+
+      console.log("Fetched recording createdAt:", createdAt);
+
       if (createdAt > twoMinutesAgo) {
         return NextResponse.json({ 
-          recording: { id: doc.id, ...doc.data() } 
+          recording: { id: doc.id, ...data } 
         }, { status: 200 });
       }
     }
 
-    
     return waitForNewRecording();
-    
+
   } catch (error) {
     console.error('Error fetching latest recording:', error);
     return NextResponse.json({ error: 'Failed to fetch recording' }, { status: 500 });
   }
+}
+
+function parseCreatedAt(value: any): Date {
+  if (!value) return new Date(0); 
+  if (value instanceof Date) return value;
+  if (value.toDate) return value.toDate(); 
+  return new Date(value); 
 }
 
 async function waitForNewRecording() {
