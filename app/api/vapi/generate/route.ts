@@ -95,9 +95,9 @@ export async function POST(request: Request) {
       createdAt: new Date().toISOString()
     }
 
-    await db.collection("podcasts").add(podcast);
+    const docRef = await db.collection("podcasts").add(podcast);
 
-    return Response.json({ success: true }, { status: 200 });
+    return Response.json({ success: true, id: docRef.id }, { status: 200 });
   } catch (e: any) {
     console.error(e);
     return Response.json({ success: false, error: e.message || e.toString() }, { status: 500 });
