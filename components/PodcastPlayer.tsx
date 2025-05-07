@@ -23,8 +23,11 @@ export default function PodcastPlayer({podcastScript}) {
       setRecording(data.recording);
     };
 
-    fetchRecording();
-  }, []);
+    if(callEnd){
+        fetchRecording();
+    }
+    
+  }, [callEnd]);
 
   // FAKE MICROPHONE ACCESS
   useEffect(() => {
