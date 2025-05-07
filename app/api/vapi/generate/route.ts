@@ -26,18 +26,21 @@ export async function POST(request: Request) {
   }
 
   function parseGeminiJSON(geminiOutput) {
+    const cleaned = geminiOutput
+      .replace(/^```(json)?\n?|\n?```$/g, '')
+      .replace(/\\"/g, '"')
+      .trim();
+  
     try {
-      return JSON.parse(
-        geminiOutput
-          .replace(/^```(json)?\n?|\n?```$/g, '')
-          .replace(/\\"/g, '"')
-          .trim()
-      );
+      return JSON.parse(cleaned);
     } catch (error) {
       console.error("Failed to parse Gemini output:", error);
-      return []; 
+      console.error("Raw Gemini output:", geminiOutput);
+      console.error("Cleaned output:", cleaned);
+      return [];
     }
   }
+  
   
  
 
