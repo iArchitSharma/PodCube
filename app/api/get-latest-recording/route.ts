@@ -1,9 +1,10 @@
 import { db } from '@/firebase/admin';
 import { NextResponse } from 'next/server';
+import admin from 'firebase-admin'; 
 
 export async function GET() {
   try {
-    const twoMinutesAgo = new Date(Date.now() - 2 * 60 * 1000);
+    const twoMinutesAgo = admin.firestore.Timestamp.fromDate(new Date(Date.now() - 2 * 60 * 1000));
 
     const snapshot = await db
       .collection("podcastLinks")
@@ -13,17 +14,15 @@ export async function GET() {
 
     if (!snapshot.empty) {
       const doc = snapshot.docs[0];
-      const data = doc.data();
-      const createdAt = parseCreatedAt(data.createdAt);
+      const createdAt = doc.get('createdAt');
 
-      console.log("Fetched recording createdAt:", createdAt);
-
-      if (createdAt > twoMinutesAgo) {
-        return NextResponse.json({ 
-          recording: { id: doc.id, ...data } 
+      if (createdAt && createdAt.toMillis() > twoMinutesAgo.toMillis()) {
+        return NextResponse.json({
+          recording: { id: doc.id, ...doc.data() }
         }, { status: 200 });
       }
     }
+
 
     return waitForNewRecording();
 
@@ -33,15 +32,10 @@ export async function GET() {
   }
 }
 
-function parseCreatedAt(value: any): Date {
-  if (!value) return new Date(0); 
-  if (value instanceof Date) return value;
-  if (value.toDate) return value.toDate(); 
-  return new Date(value); 
-}
-
 async function waitForNewRecording() {
   return new Promise<NextResponse>((resolve) => {
+    const now = admin.firestore.Timestamp.now();
+
     const timeout = setTimeout(() => {
       unsubscribe();
       resolve(NextResponse.json({ recording: null }, { status: 200 }));
@@ -49,15 +43,15 @@ async function waitForNewRecording() {
 
     const unsubscribe = db
       .collection("podcastLinks")
-      .where("createdAt", ">", new Date())
+      .where("createdAt", ">", now)
       .limit(1)
       .onSnapshot((snapshot) => {
         if (!snapshot.empty) {
           const doc = snapshot.docs[0];
           clearTimeout(timeout);
           unsubscribe();
-          resolve(NextResponse.json({ 
-            recording: { id: doc.id, ...doc.data() } 
+          resolve(NextResponse.json({
+            recording: { id: doc.id, ...doc.data() }
           }, { status: 200 }));
         }
       });
